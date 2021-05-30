@@ -1,13 +1,54 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>Hello from the Server</h1>
+    <div class="main_container">
+        <div class="dashboard_container">
+
+            <div class="logo_container">
+              <img src="utils/images/AppLogo.png" alt="logo">
+            </div>
+
+            <div class="description_container">
+            <p class="description_container_paragraph">Pass the personal code to talk to your connection or Talk with a Stranger</p>
+          </div>
+            <div class="personal_code_container">
+              <div class="personal_code_title_container">
+                  <p class="personal_code_title_paragraph">
+                   Your Personal Code
+                  </p>
+              </div>
+
+              <div class="personal_code_value_container">
+               <p class="personal_code_value_paragraph" id="personal_code_paragraph">MMMMMMMM</p> 
+               <button class="personal_code_copy_button" id="copy_button">
+                   <img src="utils/images/copyButton.png" alt="copy">
+               </button>
+              </div>
+
+            </div>
+         </div>
+
+       
+        
+        
+
+        <div class="call_container">
+
+        </div>
+
+        <div class="messenger_container">
+
+        </div>
+    </div>
     <script src="/socket.io/socket.io.js"></script>
     <script src="./js/main.js"></script>
 </body>
