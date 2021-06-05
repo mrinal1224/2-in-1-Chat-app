@@ -1,4 +1,4 @@
-\button {
+button {
   background: transparent;
   box-shadow: 0px 0px 0px transparent;
   border: 0px solid transparent;
@@ -43,7 +43,7 @@ body {
 .dashboard_container {
   width: 25%;
   height: 100%;
-  background: rgb(45, 45, 42);
+  background: #28282B;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -59,7 +59,6 @@ body {
   width: 25%;
   height: 100%;
   background: #f4f9fd;
-  
   display: flex;
   flex-direction: column;
 }
@@ -85,7 +84,7 @@ body {
   height: 110px;
   margin: 0 40px;
   background: rgba(196, 196, 196, 0.2);
-  
+ 
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -145,7 +144,7 @@ body {
   width: 100%;
   height: 100%;
   background: rgba(196, 196, 196, 0.2);
-
+  
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.5);
   color: white;
@@ -163,7 +162,7 @@ body {
   height: 55px;
   background: white;
   border-radius: 15px;
-  box-shadow: 0px 2px 2px 10px rgba(130, 134, 136, 0.2);
+  box-shadow: 0px 2px 2px 10px #464652;
   transition: 0.5s;
 }
 
@@ -196,7 +195,6 @@ body {
   background: rgba(196, 196, 196, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 8px;
-  backdrop-filter: blur(80px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -264,7 +262,7 @@ body {
 }
 
 .message_right_paragraph {
-  background: linear-gradient(168.68deg, #0052c9 1.12%, #0a91db 100%);
+  background:  #28282B;
   border: 1px solid #d5deeb;
   border-radius: 8px 8px 8px 0px;
   padding: 20px 13px;
@@ -294,7 +292,7 @@ body {
   height: calc(100% - 70px);
   margin: 30px 40px 40px 40px;
   border-radius: 15px;
-  background: rgb(45, 45, 42)
+  background: #28282B;
   /* background-image: url('../utils/images/logo.png'); */
 }
 
